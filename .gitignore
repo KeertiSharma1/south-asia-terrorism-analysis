@@ -1,0 +1,38 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info
+dist/
+build/
+env/
+venv/
+.venv/
+Lib/
+Include/
+Scripts/
+site-packages/
+
+# Data files (optional, depending on size and if you'll modify them)
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+# Temporary files and directories
+*.tmp
+*.log
+*.swp
+.DS_Store      # macOS desktop services store
+Thumbs.db      # Windows thumbnail cache
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files (if you're collaborating with others on different OS)
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+desktop.ini
